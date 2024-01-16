@@ -29,10 +29,10 @@ public class GlobalParam {
     private Long codeId;
 
     @Column(name = "gp_name")
-    private Long name;
+    private String name;
 
     @Column(name = "gp_description")
-    private Long description;
+    private String description;
 
     @CreationTimestamp
     @Temporal(TemporalType.TIMESTAMP)
