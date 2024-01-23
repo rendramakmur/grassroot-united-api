@@ -6,4 +6,6 @@ public class GlobalConstant {
 
     public static final String BACK_OFFICE_PATH_PATTERN = "/api/backoffice/**";
     public static final String FRONT_OFFICE_PATH_PATTERN = "/api/frontoffice/**";
+
+    public static final String EMPTY_STRING = "";
 }
